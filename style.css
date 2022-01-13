@@ -23,3 +23,23 @@ a{
     color: rgba(0, 0, 0, 0.6);
     line-height: 2px;
 }
+
+/*solo la thead ha i <th> quindi generalizzo "tutti i th discendenti di tr"*/
+tr th{
+    background-color: #1E90FF;
+    color: white;
+    max-width: 100%;
+    white-space: nowrap;
+}
+/*Last-child usato per non creare inutilmente un ID o una CLASS*/
+tr th:last-child{
+    width: 60%;
+}
+
+tbody tr:first-child{
+    background-color: #a4d2ff;
+}
+
+tfoot tr{
+    background-color: #a4d2ff;
+}
