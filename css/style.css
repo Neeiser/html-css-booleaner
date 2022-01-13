@@ -1,0 +1,66 @@
+header{
+    height: 150px;
+    background-image: url(img/pattern.png);
+    background-color: #1E90FF;
+}
+
+#logo{
+    margin-top: 90px;
+    margin-left: 10px;
+    height: 50px;
+}
+
+h1{
+    font-size: 2em;
+}
+
+a{
+    text-decoration-line: none;
+    color: #1E90FF;
+}
+
+.tim-1 h3,span,h4{
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 2px;
+}
+
+/*solo la thead ha i <th> quindi generalizzo "tutti i th discendenti di tr"*/
+tr th{
+    background-color: #1E90FF;
+    color: white;
+    max-width: 100%;
+    white-space: nowrap;
+}
+/*Last-child usato per non creare inutilmente un ID o una CLASS*/
+tr th:last-child{
+    width: 60%;
+}
+
+tbody tr:first-child{
+    background-color: #a4d2ff;
+}
+
+tfoot tr{
+    background-color: #a4d2ff;
+}
+
+h2{
+    color: white;
+}
+
+#adv-1{
+    height: 200px;
+    background-image: url(img/monitor.jpg);
+    background-repeat: no-repeat;
+
+}
+
+#adv-2{
+    height: 200px;
+    background-image: url(img/graph.jpg);
+    background-repeat: no-repeat;
+}
+
+div h2{
+    padding: 5px;
+}
